@@ -10,5 +10,10 @@ def root():
 def blank_work():
 	return render_template("blank.html")
 
+@app.route("/experimental-writing/changed-work")
+def changed_work():
+	with open('static/pride-and-prejudice.txt', 'r') as f:
+		return f.read().replace("\n", "<br>")
+
 if __name__ == "__main__":
 	app.run()
