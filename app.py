@@ -10,9 +10,5 @@ def root():
 def blank_work():
 	return render_template("blank.html")
 
-@app.route("/experimental-writing/final-project")
-def final_project():
-	return render_template("final-project.html")
-
 if __name__ == "__main__":
 	app.run()
