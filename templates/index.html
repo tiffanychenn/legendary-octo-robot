@@ -13,7 +13,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="static/squirtle-shades.png"/>
     <style>
       body {
-        font-family: monospace;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: justify;
       }
       p {
         padding-left: 10%;
@@ -86,7 +87,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg sticky-top align-content-top" style="color: #E8E9F3; background-color: #1759A1;">
-      <a href="http://tiffanychenn.me" class="navbar-brand">tiffany chen</a>
+      <a href="http://tiffanychenn.me" class="navbar-brand">Tiffany Chen</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -99,10 +100,10 @@
               <a class="nav-link" href="#work">work + resume</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#projects">projects + github</a>
+            <a class="nav-link" href="#research">research</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#research">research</a>
+              <a class="nav-link" href="#projects">projects + github</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="#contact">contact me</a>
@@ -114,20 +115,20 @@
     <main>
       <div class="content" style="background-color: #E8E9F3;">
           <div class="container-fluid" id="about_me" style="color: #034078; text-align: center; padding-top: 2%; padding-bottom: 2%;">
-              <h1>hi there! i'm tiffany!</h1>
-              <h2>mit '22 | software engineer</h2>
+              <h1>Hi there! I'm Tiff!</h1>
+              <h2>MIT '22/'23 | Software Engineer</h2>
               <div class="row align-items-center">
                   <div class="col-md">
                       <img src="/static/tiffany.jpg" class="img-fluid" alt="tiffany's profile picture">
                   </div>
                   <div class="col-md" style="padding-top: 2%; padding-bottom: 2%;">
-                      <h3>interesting factoids about me:</h3>
+                      <h3>Interesting factoids about me:</h3>
                       <ul>
-                          <li style="color: #034078">i currently study <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/" style="color: #1759A1;">computer science</a> and <a href="http://catalog.mit.edu/degree-charts/humanities-science-course-21s/" style="color: #1759A1;">humanities and mathematics</a> at mit.</li>
-                          <li style="color: #034078">i am incredibly interested in product design and user experience, best shown with my internships at <a href="https://www.ultimatesoftware.com" style="color: #1759A1;">facebook</a>, where i built a new feed for their marketplace, and <a href="https://www.anmh.org" style="color: #1759A1;">ultimate software</a>, where i helped create ultimate's new design system.</li>
-                          <li style="color: #034078">my research interests lie in the intersection of human-computer interaction and artificial intelligence, as best shown with my research at csail, where i am building an end-to-end user interface to test nlp model accuracy. i also did similar work at <a href="https://www.microsoft.com/en-us/research/project/semantic-machines/" style="color: #1759A1;">semantic machines</a>, where i built a decision tree and user interface to make crowdsourcing data easier.</li>
-                          <li style="color: #034078">at mit, i am part of the <a href="https://think.mit.edu" style="color: #1759A1;">think</a> committee, where i select several research project proposals from high school students to mentor and fund their research. i also am a current teaching assistant for 6.042 (math for computer science) and a past lab assistant for 6.009 (fundamentals of programming).</li>
-                          <li style="color: #034078">in my free time, i write short stories and poetry. i also love traveling, trying new restaurants, and going for hour-long walks around the city.</li>
+                          <li style="color: #034078">I am a current MEng student with the <a href="https://hcie.csail.mit.edu/" style="color: #1759A1;">HCIE group at CSAIL</a>. As an undergrad, I studied <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/" style="color: #1759A1;">computer science</a> and <a href="http://catalog.mit.edu/degree-charts/humanities-science-course-21s/" style="color: #1759A1;">humanities and mathematics</a> at MIT.</li>
+                          <li style="color: #034078">My research interests lie in the intersection of human-computer interaction and artificial intelligence to understand data and information. My current master's thesis hinges on making dynamic data visualizations tailored to a user's interests.</li>
+                          <li style="color: #034078">I am incredibly interested in product design and user experience, best shown with my internships at <a href="https://www.ultimatesoftware.com" style="color: #1759A1;">Meta</a>, where I built a new feed for their marketplace, and <a href="https://www.anmh.org" style="color: #1759A1;">Ultimate Software</a>, where I helped create Ultimate's new component library and design system.</li>
+                          <li style="color: #034078">At MIT, I am part of the <a href="https://think.mit.edu" style="color: #1759A1;">THINK</a> committee, where I select several research project proposals from high school students to mentor and fund their research. I also am the head teaching assistant for 6.1200 (Math for Computer Science).</li>
+                          <li style="color: #034078">In my free time, I write short stories and poetry. I also love traveling and going for hour-long walks around the city.</li>
                       </ul>
                   </div>
               </div>
@@ -136,66 +137,106 @@
 
       <div class="content" style="background-color: #B9D6F2;">
           <div class="container-fluid" id="work" style="color: #034078; text-align: center; padding-top: 2%; padding-bottom: 2%;">
-              <h2>work experience</h2>
+              <h2>Work Experience</h2>
               <div class="row">
                 <div class="col-md-4">
-                  <h3><a href="https://www.facebook.com" style="color: #1759A1;">facebook</a></h3>
-                  <h4 class="occupation">intern | jun '21 - aug '21 | san francisco, ca (remote)</h4>
-                  <p>i worked as a software engineering intern at facebook. there, i built and analyzed several ui components to raise awareness of the onsite checkout feed in the shops tab, resulting in more engagement with the feed.</p>
+                  <h3><a href="https://www.facebook.com" style="color: #1759A1;">Jump Trading</a></h3>
+                  <h4 class="occupation">Intern | Jun '22 - Aug '22 | Chicago, IL</h4>
+                  <p>I worked as a software engineering intern at Jump Trading on their UI team. There, I visualized risk exceptions in a live chart, showing when teams are potentially overexposing the firm, and reduced the memory usage in-browser for the corresponding web application.</p>
                 </div>
                 <div class="col-md-4">
-                  <h3><a href="http://www.eecs.mit.edu/" style="color: #1759A1;">mit department of electrical engineering and computer science</a></h3>
-                  <h4 class="occupation">teaching assistant | feb '19 - present | cambridge, ma</h4>
-                  <p>i am a current teaching assistant for the mathematics of computer science (6.042) class at mit. i was also a lab assitant for the fundamentals of programming class at mit.</p>
+                  <h3><a href="https://www.facebook.com" style="color: #1759A1;">Meta</a></h3>
+                  <h4 class="occupation">Intern | Jun '21 - Aug '21 | San Francisco, CA (remote)</h4>
+                  <p>I worked as a software engineering intern at Meta. There, I built and analyzed several UI components to raise awareness of the onsite checkout feed in the Shops tab, resulting in more engagement with the feed.</p>
                 </div>
                 <div class="col-md-4">
-                  <h3><a href="https://www.microsoft.com/en-us/research/project/semantic-machines/" style="color: #1759A1;">microsoft - semantic machines</a></h3>
-                  <h4 class="occupation">microintern | jan '21 - feb '21 | boston, ma (remote)</h4>
-                  <p>i worked as a software engineering microintern at microsoft semantic machines. there, i built a decision tree to predict the validity of computer-generated code from user inputs for a virtual assistant.</p>
+                  <h3><a href="http://www.eecs.mit.edu/" style="color: #1759A1;">MIT Department of Electrical Engineering and Computer Science</a></h3>
+                  <h4 class="occupation">Head Teaching Assistant | Feb '19 - Present | Cambridge, MA</h4>
+                  <p>I am a current teaching assistant for the Mathematics of Computer Science (6.1200) class at mit. I was also a lab assitant for the Fundamentals of Programming (6.009) class at mit.</p>
                 </div>
             </div>
               <div class="row">
-                  <div class="col-md-2"></div>
                   <div class="col-md-4">
-                    <h3><a href="https://salesforce.com" style="color: #1759A1;">salesforce</a></h3>
-                    <h4 class="occupation">intern | jun '20 - aug '20 | san francisco, ca (remote)</h4>
-                    <p>i worked as a software engineering intern at salesforce on the ui platform, quality systems team. there, i developed a browser plugin that automatically generates Javascript Object Notation code to create new page objects for web components.</p>
+                    <h3><a href="https://www.microsoft.com/en-us/research/project/semantic-machines/" style="color: #1759A1;">microsoft - semantic machines</a></h3>
+                    <h4 class="occupation">Microintern | Jan '21 - Feb '21 | Cambridge, MA (remote)</h4>
+                    <p>I worked as a software engineering microintern at Microsoft Research - Semantic Machines. There, I built a decision tree to predict the validity of crowdsourced data for computer-generated code.</p>
                   </div>
                   <div class="col-md-4">
-                      <h3><a href="https://ultimatesoftware.com" style="color: #1759A1;">ultimate software</a></h3>
-                      <h4 class="occupation">intern | may '19 - aug '19 | weston, fl</h4>
-                      <p>i worked as a software engineering intern at ultimate software on the design language system team. there, i designed navigation bars, page templates, and web components such as tooltip and banner for teams across the company to consume.</p>
+                    <h3><a href="https://salesforce.com" style="color: #1759A1;">Salesforce</a></h3>
+                    <h4 class="occupation">Intern | Jun '20 - Aug '20 | San Francisco, CA (remote)</h4>
+                    <p>I worked as a software engineering intern at Salesforce on the UI Platform, Quality Systems team. There, I developed a browser plugin that automatically generates Javascript Object Notation code to create new page objects for web components.</p>
                   </div>
-                  <div class="col-md-2"></div>
+                  <div class="col-md-4">
+                    <h3><a href="https://ultimatesoftware.com" style="color: #1759A1;">ultimate software</a></h3>
+                    <h4 class="occupation">Intern | May '19 - Aug '19 | Weston, FL</h4>
+                    <p>I worked as a software engineering intern at Ultimate Software on the Design Language System team. There, I designed navigation bars, page templates, and web components such as tooltip and banner for teams across the company to consume.</p>
+                  </div>
               </div>
               <div class="row">
                 <div class="col-md-4">
-                  <h3><a href="https://janestreet.com" style="color: #1759A1;">jane street</a></h3>
-                  <h4 class="occupation">insight intern | jan '19 | new york, ny</h4>
-                  <p>i worked as an insight intern at jane street for a week during my school's winter semester. there, i built an automated bot to trade in a simulated stock market.</p>
+                  <h3><a href="https://janestreet.com" style="color: #1759A1;">Jane Street</a></h3>
+                  <h4 class="occupation">INSIGHT Intern | Jan '19 | New York, NY</h4>
+                  <p>I worked as an INSIGHT Intern at Jane Street for a week during my school's winter semester. There, I built an automated bot to trade in a simulated stock market.</p>
                 </div>
                   <div class="col-md-4">
-                      <h3><a href="https://ms.com" style="color: #1759A1;">morgan stanley</a></h3>
-                      <h4 class="occupation">intern | jul '18 - aug '18 | new york, ny</h4>
-                      <p>i worked as a technology intern at morgan stanley, wealth management. there, i developed two internal web applications, trak and seekr, which track developed websites as they go through different testing environments.</p>
+                      <h3><a href="https://ms.com" style="color: #1759A1;">Morgan Stanley</a></h3>
+                      <h4 class="occupation">Intern | Jul '18 - Aug '18 | New York, NY</h4>
+                      <p>I worked as a technology intern at Morgan Stanley, Wealth Management. There, I developed two internal web applications, trak and seekr, which track developed websites as they go through different testing environments.</p>
                   </div>
                   <div class="col-md-4">
-                      <h3><a href="https://amnh.org" style="color: #1759A1;">museum of natural history</a></h3>
-                      <h4 class="occupation">intern | oct '16 - may '17 | new york, ny</h4>
-                      <p>i interned in the exhibitions department of the museum, where i built exhibits for a year. one ended up in the senses show, showcasing how several animals see differently than humans and why.</p>
+                      <h3><a href="https://amnh.org" style="color: #1759A1;">Museum of Natural History</a></h3>
+                      <h4 class="occupation">Intern | Oct '16 - May '17 | New York, NY</h4>
+                      <p>I interned in the Exhibitions Department of the museum, where I built exhibits for a year. One ended up in the senses show, showcasing how several animals see differently than humans and why.</p>
                   </div>
               </div>
-              <h4>interested in my resume? <a href="/static/resume.pdf" style="color: #1759A1;">here it is</a>!</h4>
+              <h4>Interested in my resume? <a href="/static/resume.pdf" style="color: #1759A1;">Here it is</a>!</h4>
           </div>
       </div>
 
       <div class="content" style="background-color: #E8E9F3;">
+        <div class="container-fluid" id="research" style="color: #034078; text-align: center; padding-top: 2%; padding-bottom: 2%;">
+          <h2>Research</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <h3 style="color: #1759A1;">CSAIL, HCIE group</a></h3>
+              <p>My master's thesis hinges on making dynamic data visualizations tailored to people's preferences.</p>
+              <p><span class="languages"></span></p>
+            </div>
+            <div class="col-md-4">
+              <h3 style="color: #1759A1;">CSAIL, CAML and Visualization groups</h3>
+              <p>I worked on a joint project with the CAML and Cisualization groups in making a end-to-end user interface for users to apply transformations to test sets to test accuracy of NLP models.</p>
+              <p><span class="languages">python, javascript</span></p>
+            </div>
+            <div class="col-md-4">
+              <h3 style="color: #1759A1;">MIT Media Lab <a href="https://www.media.mit.edu/projects/large-interactive-laser-light-field-display/overview/" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
+              <p>I built an API to retrieve data (e.g. lightning data) to visualize on a laser-generated globe. (yes, it was huge!)</p>
+              <p><span class="languages">flask</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <h3 style="color: #1759A1;">Regeneron research <a href="https://docs.google.com/document/d/12mm2vu4bbzTuNg5e0kzJ8ol1lGLm2zOlNskNRQtOeEY/edit?usp=sharing" style="color: #1759A1;"><i class="far fa-file"></i></a></h3>
+                <p>I predicted gentrification in NYC neighborhoods using public housing data from 2003 - 2017. I inputted final sale prices of houses in gentrifying and non-gentrifying neighborhoods into the Cox proportional hazards model, and trends allowed me to see what neighborhoods are most likely to gentrify next.</p>
+                <p><span class="languages">scikit-learn, pandas</span> | <a href="https://github.com/tiffanychenn/regeneron-research" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
+            </div>
+            <div class="col-md-4">
+                <h3 style="color: #1759A1;">GSTEM research <a href="https://docs.google.com/document/d/185rR4k3XRB05YgGYjYaBSP24NiAkk8Q0OWtTdWeHL0w/edit?usp=sharing" style="color: #1759A1;"><i class="far fa-file"></i></a></h3>
+                <p>I predicted housing prices for many unsold homes in NYC with regression models in machine learning. Using published data from zillow, I predicted the prices of unsold houses to improve Zillow's current algorithm.</p>
+                <p><span class="languages">scikit-learn, pandas</span> | <a href="https://github.com/tiffanychenn/gstem-research" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" style="background-color: #B9D6F2;">
           <div class="container-fluid" id="projects" style="color: #034078; text-align: center; padding-top: 2%; padding-bottom: 2%;">
-              <h2>projects</h2>
+              <h2>Projects</h2>
               <div class="row align-items-center projects">
                 <div class="col-md">
-                    <h3 style="color: #1759A1;">portable violin</h3>
-                    <p>my team and i built a violin on a glove. i specifically worked on building the main glove and refining the code.</p>
+                    <h3 style="color: #1759A1;">Portable violin</h3>
+                    <p>My team and I built a violin on a glove. I specifically worked on building the main glove and refining the code.</p>
                     <p class="languages">arduino</p>
                 </div>
                 <div class="col-md">
@@ -209,8 +250,8 @@
             <hr>
               <div class="row align-items-center projects">
                 <div class="col-md">
-                    <h3 style="color: #1759A1;">techx application viewer <a href="http://35.192.111.89/" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
-                    <p>my team and i developed an interface to allow committee members to easily read applications for think and xfair (a conference at mit) and accept/reject applicants.</p>
+                    <h3 style="color: #1759A1;">TechX application viewer <a href="http://35.192.111.89/" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
+                    <p>My team and I developed an interface to allow committee members to easily read applications for THINK and XFair (a conference at mit) and accept/reject applicants.</p>
                     <p class="languages">react, mongodb</p>
                 </div>
                 <div class="col-md">
@@ -220,8 +261,8 @@
             <hr>
               <div class="row align-items-center projects">
                 <div class="col-md">
-                    <h3 style="color: #1759A1;">stay notified cambridge <a href="https://team-tank-snc.herokuapp.com/" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
-                    <p>my team and i made an interface for the cambridge city council to notify its constituents about meetings being held.</p>
+                    <h3 style="color: #1759A1;">Stay Notified Cambridge <a href="https://team-tank-snc.herokuapp.com/" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
+                    <p>My team and I made an interface for the Cambridge City Council to notify its constituents about meetings being held.</p>
                     <p class="languages">vue</p>
                 </div>
                 <div class="col-md">
@@ -231,8 +272,8 @@
             <hr>
               <div class="row align-items-center projects">
                 <div class="col-md">
-                    <h3 style="color: #1759A1;">virtual activities midway website <a href="https://midway.techx.io" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
-                    <p>i helped techx make a virtual activies midway interface so that clubs and incoming freshmen at mit can link together, specifically the filter function for the different clubs.</p>
+                    <h3 style="color: #1759A1;">Virtual activities midway website <a href="https://midway.techx.io" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
+                    <p>I helped TechX make a virtual activies midway interface so that clubs and incoming freshmen at MIT can link together, specifically the filter function for the different clubs.</p>
                     <p class="languages">react</p>
                 </div>
                 <div class="col-md">
@@ -242,8 +283,8 @@
             <hr>
               <div class="row align-items-center projects">
                   <div class="col-md">
-                      <h3 style="color: #1759A1;">fearlesslygirl app</h3>
-                      <p>i helped <a href="https://fearlesslygirl.com" style="color: #1759A1;">fearlesslygirl</a>, an organization dedicated to inspiring girls to take on the world confidently and fearlessly, to build the hangout section of their new app.</p>
+                      <h3 style="color: #1759A1;">FearlesslyGirl app</h3>
+                      <p>I helped <a href="https://fearlesslygirl.com" style="color: #1759A1;">FearlesslyGirl</a>, an organization dedicated to inspiring girls to take on the world confidently and fearlessly, to build the hangout section of their new app.</p>
                       <p><span class="languages">react-native</span> | <a href="https://github.com/UltimateSoftware/fg-mobile" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
                   </div>
                   <div class="col-md">
@@ -257,8 +298,8 @@
               <hr>
               <div class="row align-items-center projects">
                   <div class="col-md">
-                      <h3 style="color: #1759A1;">think website <a href="https://think.mit.edu" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
-                      <p>i redesigned the front-end of the mit think website to look more modern and sleek.</p>
+                      <h3 style="color: #1759A1;">THINK website <a href="https://think.mit.edu" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
+                      <p>I redesigned the front-end of the MIT THINK website to look more modern and sleek.</p>
                       <p class="languages">angular, bootstrap</p>
                   </div>
                   <div class="col-md">
@@ -270,8 +311,8 @@
               <hr>
               <div class="row align-items-center projects">
                   <div class="col-md">
-                      <h3 style="color: #1759A1;">assassin game organizer</h3>
-                      <p>i worked with a team to develop an assassin's game organizer. a user can register and start/join existing assassin games. the app does all administrative parts of the game, such as randomly assigning targets and administering a way to mark deaths.</p>
+                      <h3 style="color: #1759A1;">Assassin game organizer</h3>
+                      <p>I worked with a team to develop an assassin's game organizer. A user can register and start/join existing assassin games. The app does all administrative parts of the game, such as randomly assigning targets and administering a way to mark deaths.</p>
                       <p><span class="languages">flask, javascript, bootstrap, sql databases</span> | <a href="https://github.com/JFreud/milksquared" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
                   </div>
                   <div class="col-md">
@@ -283,8 +324,8 @@
               <hr>
               <div class="row align-items-center projects">
                   <div class="col-md">
-                      <h3 style="color: #1759A1;">mario party online game</h3>
-                      <p>i worked with a team to develop an online version of mario party. two players can play simultaneously, going across the board and playing minigames to earn/lose coins. players can also continue old games from the home page.</p>
+                      <h3 style="color: #1759A1;">Mario Party online game</h3>
+                      <p>I worked with a team to develop an online version of Mario Party. Two players can play simultaneously, going across the board and playing minigames to earn/lose coins. Players can also continue old games from the home page.</p>
                       <p><span class="languages">flask, javascript, foundation, sql databases</span> | <a href="https://github.com/tiffanychenn/DIJiTal" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
                   </div>
                   <div class="col-md">
@@ -296,8 +337,8 @@
               <hr>
               <div class="row align-items-center projects">
                   <div class="col-md">
-                      <h3 style="color: #1759A1;">safari zone game</h3>
-                      <p>my partner and i developed a game in processing simulating the safari zone minigame found in many main pokemon games. players can choose their character and catch pokemon, collecting them all in several safari zone habitats.</p>
+                      <h3 style="color: #1759A1;">Safari Zone game</h3>
+                      <p>My partner and I developed a game in processing simulating the safari zone minigame found in many main Pokemon games. Players can choose their character and catch pokemon, collecting them all in several safari zone habitats.</p>
                       <p><span class="languages">processing</span> | <a href="https://github.com/tiffanychenn/safariZone" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
                   </div>
                   <div class="col-md">
@@ -311,51 +352,18 @@
               <hr>
               <div class="row align-items-center projects">
                   <div class="col-md">
-                      <h3 style="color: #1759A1;">spell checker</h3>
-                      <p>my partner and i developed a spell checker. by inputting text, the program checks each word with the dictionary and, if the word is not found, spell checks it. the user can also respell-check words.</p>
+                      <h3 style="color: #1759A1;">Spell checker</h3>
+                      <p>My partner and I developed a spell checker. By inputting text, the program checks each word with the dictionary and, if the word is not found, spell checks it. the user can also respell-check words.</p>
                       <p><span class="languages">java</span> | <a href="https://github.com/JFreud/spellCheck" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
                   </div>
                   <div class="col-md">
                     <img src="/static/spellcheck.png" class="img-fluid" alt="spell checker project picture">
                   </div>
               </div>
-              <h4>want to see more? check out <a href="https://github.com/tiffanychenn" style="color: #1759A1;">my github</a>.
+              <h4>Want to see more? Check out <a href="https://github.com/tiffanychenn" style="color: #1759A1;">my github</a>.
           </div>
       </div>
 
-      <div class="content" style="background-color: #B9D6F2;">
-        <div class="container-fluid" id="research" style="color: #034078; text-align: center; padding-top: 2%; padding-bottom: 2%;">
-          <h2>research</h2>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
-              <h3 style="color: #1759A1;">csail, caml and visualization groups</h3>
-              <p>i wam working on a joint project with the caml and visualization groups in making a end-to-end user interface for users to apply transformations to test sets to test accuracy of nlp models.</p>
-              <p><span class="languages">python, javascript</span></p>
-            </div>
-            <div class="col-md-4">
-              <h3 style="color: #1759A1;">mit media lab <a href="https://www.media.mit.edu/projects/large-interactive-laser-light-field-display/overview/" style="color: #1759A1;"><i class="fas fa-link"></i></a></h3>
-              <p>i built an api to retrieve data (e.g. lightning data) to visualize on a laser-generated globe. (yes, it was huge!)</p>
-              <p><span class="languages">flask</span></p>
-            </div>
-            <div class="col-md-2"></div>
-          </div>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
-                <h3 style="color: #1759A1;">regeneron research <a href="https://docs.google.com/document/d/12mm2vu4bbzTuNg5e0kzJ8ol1lGLm2zOlNskNRQtOeEY/edit?usp=sharing" style="color: #1759A1;"><i class="far fa-file"></i></a></h3>
-                <p>i predicted gentrification in nyc neighborhoods using public housing data from 2003 - 2017. i inputted final sale prices of houses in gentrifying and non-gentrifying neighborhoods into the cox proportional hazards model, and trends allowed me to see what neighborhoods are most likely to gentrify next.</p>
-                <p><span class="languages">scikit-learn, pandas</span> | <a href="https://github.com/tiffanychenn/regeneron-research" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
-            </div>
-            <div class="col-md-4">
-                <h3 style="color: #1759A1;">gstem research <a href="https://docs.google.com/document/d/185rR4k3XRB05YgGYjYaBSP24NiAkk8Q0OWtTdWeHL0w/edit?usp=sharing" style="color: #1759A1;"><i class="far fa-file"></i></a></h3>
-                <p>i predicted housing prices for many unsold homes in new york city with regression models in machine learning. using published data from zillow, i was able to predict the prices of unsold houses to improve zillow's current algorithm.</p>
-                <p><span class="languages">scikit-learn, pandas</span> | <a href="https://github.com/tiffanychenn/gstem-research" aria-label="link to the github repo containing code for this project"><i class="fas fa-code code-button"></i></a></p>
-            </div>
-            <div class="col-md-2"></div>
-          </div>
-        </div>
-      </div>
     </main>
 
     <div class="content" id="contact" style="background-color: #1759A1;">
