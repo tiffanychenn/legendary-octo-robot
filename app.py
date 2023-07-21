@@ -15,7 +15,7 @@ def sonnet0():
 	return render_template("sonnet0.html")
 
 @app.route("/poem/sonnet47")
-def sonnet0():
+def sonnet47():
 	return render_template("sonnet47.html")
 
 if __name__ == "__main__":
